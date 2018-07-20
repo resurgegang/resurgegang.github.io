@@ -1,0 +1,72 @@
+/* Global stuff */
+.logo{
+    font-family: 'Edo SZ';
+}
+
+.jumbotron{
+    margin: 0px;
+}
+
+.card-order{
+    margin-top: 100px;
+}
+
+/* Reponsive adjustment */
+
+@media (max-width: 991.98px){
+    .card {
+        margin-top: 40px;
+    }
+    #prices{
+        margin-top: 75px;
+    }
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "Edo SZ";
+    src: url(link/edosz.ttf);
+}
+
+/* Roster */
+
+#roster{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Videos */
+
+#videos{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Contact */
+
+#contact{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+
+/* Footer */
+
+footer .container-fluid{
+    background-color: #e9ecef;
+    height: 60px;
+}
+
+footer p{
+    margin: 0px;
+    color: #000;
+}
+
+.noun-underline:hover{
+    text-decoration: none;!important
+}
+
+
+
+
